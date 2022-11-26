@@ -1,0 +1,75 @@
+.calculator {
+    padding: 20px;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    background-color: darkorchid;
+    border-radius: 5%;
+    box-shadow: #432C7A 0px 10px 20px;
+    background: linear-gradient(darkorchid, #e66465);
+
+}
+.calc {
+    padding: 50px;
+}
+.display-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: #432C7A;
+    border: solid #432C7A 0.5px;
+    border-radius: 5px;
+    color: #432C7A ;
+   
+}
+
+#btn {
+    background-color: darkorchid;
+    height: 60px;
+   
+
+}
+input[type=button] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient( #f48585, rgb(193, 83, 248));
+    border: solid #432C7A 0.4px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #432C7A;
+    
+}
+
+
+input:active[type=button] {
+    
+    background: linear-gradient(  rgb(193, 83, 248),#432c7a);
+    -webkit-box-shadow : inset 0px 0px 5px #c1c1c1;
+    
+}
+input:hover[type=button] {
+    
+    background: linear-gradient( #f48585, #432c7a);
+   
+    
+}
+input[type=display-box] {
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #c1c1c1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+input[type=button1] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient( #f48585, rgb(193, 83, 248));
+    border: solid #432C7A 0.4px;
+    width: 96%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #432C7A;
+    text-align: center;
+    
+}
